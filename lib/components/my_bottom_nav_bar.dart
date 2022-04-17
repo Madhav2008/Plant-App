@@ -32,7 +32,6 @@ class MyBottomNavBar extends StatelessWidget {
           IconButton(
             icon: SvgPicture.asset(
               "../assets/icons/flower.svg",
-              // color: kPrimaryColor,
             ),
             onPressed: () {},
           ),
