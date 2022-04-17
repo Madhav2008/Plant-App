@@ -15,6 +15,7 @@ class RecomendsPlants extends StatelessWidget {
       child: Row(
         children: <Widget>[
           GestureDetector(
+            onTap: (){},
             child: RecomendPlantCard(
               image: "../assets/images/image_1.png",
               title: "Samantha",
