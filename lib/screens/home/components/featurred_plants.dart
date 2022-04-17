@@ -25,14 +25,15 @@ class FeaturedPlants extends StatelessWidget {
             },
           ),
           FeaturePlantCard(
-            image: "../assets/images/bottom_img_2.png",
-            press: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => DetailsScreen(),
-                ),
-              );
+              image: "../assets/images/bottom_img_2.png",
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailsScreen(),
+                  ),
+                );
+              })
         ],
       ),
     );
