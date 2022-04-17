@@ -38,7 +38,15 @@ class RecomendsPlants extends StatelessWidget {
               },
             ),
           ),
-          widget(
+           GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailsScreen(),
+                ),
+              );
+            },
             child: RecomendPlantCard(
               image: "../assets/images/image_2.png",
               title: "Angelica",
