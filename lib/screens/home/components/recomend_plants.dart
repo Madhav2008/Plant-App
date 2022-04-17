@@ -15,12 +15,14 @@ class RecomendsPlants extends StatelessWidget {
       child: Row(
         children: <Widget>[
           GestureDetector(
-            onTap: () {Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailsScreen(),
-                  ),
-                );},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailsScreen(),
+                ),
+              );
+            },
             child: RecomendPlantCard(
               image: "../assets/images/image_1.png",
               title: "Samantha",
