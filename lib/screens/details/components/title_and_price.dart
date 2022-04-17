@@ -6,7 +6,7 @@ class TitleAndPrice extends StatelessWidget {
     Key? key,
     required this.title,
     required this.country,
-    this.price,
+    required this.price,
   }) : super(key: key);
 
   final String title, country;
