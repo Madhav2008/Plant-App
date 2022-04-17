@@ -33,7 +33,7 @@ class FeaturedPlants extends StatelessWidget {
                     builder: (context) => DetailsScreen(),
                   ),
                 );
-              })
+              }),
         ],
       ),
     );
