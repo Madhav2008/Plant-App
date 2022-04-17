@@ -5,7 +5,7 @@ class TitleWithMoreBtn extends StatelessWidget {
   const TitleWithMoreBtn({
     Key? key,
     required this.title,
-    this.press,
+    required this.press,
   }) : super(key: key);
   final String title;
   final Function press;
