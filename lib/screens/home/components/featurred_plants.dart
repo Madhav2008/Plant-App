@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_app/screens/details/details_screen.dart';
 import '../../../constants.dart';
 
 class FeaturedPlants extends StatelessWidget {
