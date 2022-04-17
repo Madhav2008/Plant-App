@@ -4,7 +4,7 @@ import '../../../constants.dart';
 
 class TitleAndPrice extends StatelessWidget {
   const TitleAndPrice({
-    Key key,
+    Key? key,
     this.title,
     this.country,
     this.price,
