@@ -83,7 +83,7 @@ class RecomendPlantCard extends StatelessWidget {
         children: <Widget>[
           Image.asset(image),
           GestureDetector(
-            onTap: ()=>press,
+            onTap: () => press,
             child: Container(
               padding: EdgeInsets.all(kDefaultPadding / 2),
               decoration: BoxDecoration(
