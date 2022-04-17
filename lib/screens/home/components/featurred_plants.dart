@@ -40,7 +40,7 @@ class FeaturePlantCard extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return GestureDetector(
-      onTap: ()=>press,
+      onTap: () => press,
       child: Container(
         margin: EdgeInsets.only(
           left: kDefaultPadding,
