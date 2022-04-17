@@ -15,7 +15,7 @@ class RecomendsPlants extends StatelessWidget {
       child: Row(
         children: <Widget>[
           RecomendPlantCard(
-            image: "assets/images/image_1.png",
+            image: "../assets/images/image_1.png",
             title: "Samantha",
             country: "Russia",
             price: 440,
@@ -29,7 +29,7 @@ class RecomendsPlants extends StatelessWidget {
             },
           ),
           RecomendPlantCard(
-            image: "assets/images/image_2.png",
+            image: "../assets/images/image_2.png",
             title: "Angelica",
             country: "Russia",
             price: 440,
@@ -43,7 +43,7 @@ class RecomendsPlants extends StatelessWidget {
             },
           ),
           RecomendPlantCard(
-            image: "assets/images/image_3.png",
+            image: "../assets/images/image_3.png",
             title: "Samantha",
             country: "Russia",
             price: 440,
