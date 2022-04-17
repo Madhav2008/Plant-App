@@ -34,8 +34,7 @@ class FeaturedPlants extends StatelessWidget {
                 MaterialPageRoute(
                   builder: (context) => DetailsScreen(),
                 ),
-              );
-          ),
+              );}
         ],
       ),
     );
