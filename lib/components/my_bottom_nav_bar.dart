@@ -5,7 +5,7 @@ import '../constants.dart';
 
 class MyBottomNavBar extends StatelessWidget {
   const MyBottomNavBar({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
