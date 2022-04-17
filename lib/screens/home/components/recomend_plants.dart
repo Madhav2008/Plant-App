@@ -57,7 +57,7 @@ class RecomendsPlants extends StatelessWidget {
 
 class RecomendPlantCard extends StatelessWidget {
   const RecomendPlantCard({
-    Key key,
+    Key? key,
     this.image,
     this.title,
     this.country,
