@@ -27,7 +27,6 @@ class FeaturedPlants extends StatelessWidget {
           FeaturePlantCard(
             image: "../assets/images/bottom_img_2.png",
             press: () {
-            onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
