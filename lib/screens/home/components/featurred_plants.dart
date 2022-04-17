@@ -26,7 +26,17 @@ class FeaturedPlants extends StatelessWidget {
           ),
           FeaturePlantCard(
             image: "../assets/images/bottom_img_2.png",
-            press: () {},
+            press: () {
+               GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailsScreen(),
+                ),
+              );
+            },
+            },
           ),
         ],
       ),
