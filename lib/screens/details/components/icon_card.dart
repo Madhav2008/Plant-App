@@ -5,7 +5,7 @@ import '../../../constants.dart';
 
 class IconCard extends StatelessWidget {
   const IconCard({
-    Key key,
+    Key? key,
     this.icon,
   }) : super(key: key);
 
