@@ -6,7 +6,7 @@ import 'icon_card.dart';
 class ImageAndIcons extends StatelessWidget {
   const ImageAndIcons({
     Key? key,
-    @required this.size,
+    required this.size,
   }) : super(key: key);
 
   final Size size;
