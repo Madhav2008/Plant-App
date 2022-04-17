@@ -28,7 +28,7 @@ class FeaturedPlants extends StatelessWidget {
 
 class FeaturePlantCard extends StatelessWidget {
   const FeaturePlantCard({
-    Key key,
+    Key? key,
     this.image,
     this.press,
   }) : super(key: key);
