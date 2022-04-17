@@ -30,7 +30,7 @@ class FeaturePlantCard extends StatelessWidget {
   const FeaturePlantCard({
     Key? key,
     required this.image,
-    this.press,
+    required this.press,
   }) : super(key: key);
   final String image;
   final Function press;
