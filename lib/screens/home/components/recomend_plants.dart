@@ -5,7 +5,7 @@ import '../../../constants.dart';
 
 class RecomendsPlants extends StatelessWidget {
   const RecomendsPlants({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
