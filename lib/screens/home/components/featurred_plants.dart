@@ -4,7 +4,7 @@ import '../../../constants.dart';
 
 class FeaturedPlants extends StatelessWidget {
   const FeaturedPlants({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
