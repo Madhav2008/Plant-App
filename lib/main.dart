@@ -3,7 +3,7 @@ import 'package:plant_app/constants.dart';
 import 'package:plant_app/screens/home/home_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp(),);
 }
 
 class MyApp extends StatelessWidget {
