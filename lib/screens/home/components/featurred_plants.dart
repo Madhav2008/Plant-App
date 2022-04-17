@@ -29,7 +29,7 @@ class FeaturedPlants extends StatelessWidget {
 class FeaturePlantCard extends StatelessWidget {
   const FeaturePlantCard({
     Key? key,
-    this.image,
+    required this.image,
     this.press,
   }) : super(key: key);
   final String image;
