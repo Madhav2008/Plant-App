@@ -37,7 +37,7 @@ class TitleWithMoreBtn extends StatelessWidget {
 
 class TitleWithCustomUnderline extends StatelessWidget {
   const TitleWithCustomUnderline({
-    Key key,
+    Key? key,
     this.text,
   }) : super(key: key);
 
