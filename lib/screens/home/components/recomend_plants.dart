@@ -62,7 +62,7 @@ class RecomendsPlants extends StatelessWidget {
               },
             ),
           ),
-           GestureDetector(
+          GestureDetector(
             onTap: () {
               Navigator.push(
                 context,
