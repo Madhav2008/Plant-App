@@ -21,7 +21,8 @@ class FeaturedPlants extends StatelessWidget {
                   builder: (context) => DetailsScreen(),
                 ),
               );
-           
+            },
+            },
           ),
           FeaturePlantCard(
             image: "../assets/images/bottom_img_2.png",
