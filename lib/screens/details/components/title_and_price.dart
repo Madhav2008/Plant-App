@@ -5,7 +5,7 @@ class TitleAndPrice extends StatelessWidget {
   const TitleAndPrice({
     Key? key,
     required this.title,
-    this.country,
+    required this.country,
     this.price,
   }) : super(key: key);
 
