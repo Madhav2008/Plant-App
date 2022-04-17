@@ -61,7 +61,7 @@ class RecomendPlantCard extends StatelessWidget {
     required this.image,
     required this.title,
     required this.country,
-    this.price,
+    required this.price,
     this.press,
   }) : super(key: key);
 
