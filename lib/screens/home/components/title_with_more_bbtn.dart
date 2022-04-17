@@ -4,7 +4,7 @@ import '../../../constants.dart';
 class TitleWithMoreBtn extends StatelessWidget {
   const TitleWithMoreBtn({
     Key? key,
-    this.title,
+    required this.title,
     this.press,
   }) : super(key: key);
   final String title;
