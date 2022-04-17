@@ -45,7 +45,7 @@ class TitleAndPrice extends StatelessWidget {
             "\$$price",
             style: Theme.of(context)
                 .textTheme
-                .headline5
+                .headline5!
                 .copyWith(color: kPrimaryColor),
           )
         ],
