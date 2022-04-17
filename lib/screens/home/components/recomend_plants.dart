@@ -122,7 +122,7 @@ class RecomendPlantCard extends StatelessWidget {
                     '\$$price',
                     style: Theme.of(context)
                         .textTheme
-                        .button
+                        .button!
                         .copyWith(color: kPrimaryColor),
                   )
                 ],
